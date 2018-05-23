@@ -1,0 +1,46 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "demo protractor + cucumber 4 scallfold",
+    "line": 1,
+    "id": "demo-protractor-+-cucumber-4-scallfold",
+    "tags": [],
+    "uri": "features\\demo.feature",
+    "elements": [
+      {
+        "id": "demo-protractor-+-cucumber-4-scallfold;generate-cucumber-4-html-report",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "generate cucumber 4 html report",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "open cucumberjs github page",
+            "match": {
+              "location": "steps\\demo.step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16322000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
